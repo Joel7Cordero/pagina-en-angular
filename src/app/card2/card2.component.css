@@ -1,0 +1,9 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://playacitycard.mx/storage/index/8BGX3M0imjbLOBSeLK8DpAdpPWJrMHHy2Avz4TeR.jpeg');
+    background-size: cover;
+  }
+  

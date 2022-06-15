@@ -1,0 +1,16 @@
+<mat-toolbar color="primary-dark" class="mat-elevation-z3">
+    <h1>Store</h1>
+</mat-toolbar>
+<div *ngFor="let product of products">
+    <h3>
+        <a [title]="product.name + ' details'">
+            {{ product.name }}
+        </a>
+    </h3>
+    <p *ngIf="product.description">
+        Description: {{ product.description }}
+    </p>
+    <button color="mycolor" type="button" (click)="share()">
+        Share
+    </button>
+</div>
